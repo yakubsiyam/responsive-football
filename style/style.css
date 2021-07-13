@@ -1,0 +1,159 @@
+        /*------------
+            universal and
+              utilities
+        ---------------*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding:0 10%;
+}
+
+        /*------------
+            Showcase
+        ---------------*/
+#showcase{
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-color: #2D25A0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.showcase-box{
+    width: 45%;
+}
+
+.showcase-text h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    padding-top: 80px;
+    margin-bottom: 35px;
+    line-height: 80px;
+}
+
+.button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.showcase-box img{
+    width: 100%;
+    padding-top: 50px;
+}
+
+        /*------------
+            players
+        ---------------*/
+
+#players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+
+.player-box{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-box h2{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    color: #18191F;
+}
+
+.player-box p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6C6C6C;
+    ;
+}
+
+.player-box img{
+    width: 100%;
+}
+
+        /*------------
+            highlights
+        ---------------*/
+
+#highlights{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 165px;
+    margin-bottom: 160px;
+}
+
+.highlights-text h1{
+    margin-top: 30px;
+    font-size: 40px;
+    color: #0A0826;
+    line-height: 60px;
+}
+
+.highlights-text p{
+    padding-top: 20px;
+    font-size: 13px;
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}
+
+        /*------------
+            footer
+        ---------------*/
+
+footer{
+    padding-bottom: 30px;
+}
+
+.footer-box{
+    margin: 10px auto 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+#footer-image img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-box i{
+    width: 32px;
+    height: 32px;
+    background: hsla(230, 35%, 7%,0.1);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 16px;
+    color: #969BAB;
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer-box p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+}
+
+
+ 
