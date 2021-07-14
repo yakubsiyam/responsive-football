@@ -312,6 +312,10 @@ footer{
         align-items: center;
     }
 
+    .footer-box p{
+        font-size: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 668px)
@@ -394,5 +398,14 @@ footer{
 
     .footer-box{
         width: 60%;
+    }
+
+    .footer-box i{
+        font-size: 18px;
+        padding: 6px;
+        margin: 7px;
+    }
+    .footer-box p{
+        font-size: 15px;
     }
 }
