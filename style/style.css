@@ -27,24 +27,12 @@ header{
     background-color: #2D25A0;
 }
 
-#navbar{
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-link a{
-    margin-right: 36px;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 500;
-}
 
         /*------------
             Showcase
         ---------------*/
 #showcase{
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 80px;
     display: flex;
     flex-flow: row wrap;
@@ -287,17 +275,18 @@ footer{
 
 @media only screen and (max-width: 992px)
 {
-    #navbar{
-        display: none;
-    }
-
     #showcase{
         flex-direction: column;
         align-items: center;
+        padding-top: 50px;
     }
 
     .showcase-box{
         width: 100%;
+    }
+
+    .showcase-box h1{
+        padding-top: 0;
     }
 
     .showcase-image{
@@ -343,22 +332,19 @@ footer{
         padding: 0 5%;
     }
 
-    #navbar{
-        display: none;
-    }
-
     #showcase{
         flex-direction: column;
+        padding-top: 40px;
     }
 
     .showcase-box{
         width: 100%;
-        margin-top: 50px;
     }
 
     .showcase-box h1{
         font-size: 36px;
         line-height: 50px;
+        padding-top: 0;
     }
 
     .showcase-image img{
