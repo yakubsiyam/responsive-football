@@ -21,16 +21,12 @@ body{
 }
 
         /*------------
-            navbar
+            Showcase
         ---------------*/
 header{
     background-color: #2D25A0;
 }
 
-
-        /*------------
-            Showcase
-        ---------------*/
 #showcase{
     padding-top: 50px;
     padding-bottom: 80px;
@@ -98,7 +94,6 @@ header{
     line-height: 26px;
     font-weight: 400;
     color: #6C6C6C;
-    ;
 }
 
 .player-box img{
